@@ -14,16 +14,35 @@ h2 {
 }
 #guarantee {
   line-height: 1.9em;
-  font:italic, Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #444444;
   border: 1px dashed white;
-  background-color: #a7cece;
-  background-repeat: no-repeat;
-  padding: 25px;
-  padding-left: 80;
-  margin: 30px;
-  margin-right: 250px;
-  background-image: url(images/background.gif);
-  background-repeat: no-repeat;
-  background-position: top left;
+  padding: 25px 25px 25px 80px;
+  margin: 30px 280px 30px 30px;
+  background: #a7cece url(images/background.gif) top left no-repeat;
+}
+#elixirs {
+  border: thin solid #007e7e;
+  width: 200px; 
+  padding: 0px 20px 20px 20px;
+  margin: 20px;
+  text-align: center;
+  background: url(images/cocktail.gif) repeat-x;
+  float: right;
+}
+.cd {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
+}
+a:link {
+  color: green;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: yellow;
 }
